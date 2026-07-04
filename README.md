@@ -11,19 +11,29 @@ The analysis is centred around the following question: How did COVID-19 reshape 
 To address this question, the project examined three interconnected themes:
 
 1. Healthcare and Social Outcomes:
-   1.2 To what extent did infant mortality trends slow during COVID-19, and have regional disparities narrowed during recovery?
-   1.3 Did stronger pre-pandemic immunisation systems and hospital bed capacity reduce disruptions to infant mortality and life expectancy?
 
-4. Economic Performance:
-- 2.1 How did GDP evolve before, during and after COVID-19?
+1.2 To what extent did infant mortality trends slow during COVID-19, and have regional disparities narrowed during recovery?
+
+1.3 Did stronger pre-pandemic immunisation systems and hospital bed capacity reduce disruptions to infant mortality and life expectancy?
+
+2. Economic Performance:
+
+2.1 How did GDP evolve before, during and after COVID-19?
+
 2.2 How did inflation respond to the pandemic?
+
 2.3 How did labour markets recover across regions?
+
 2.4 Did tourism-dependent economies experience larger declines in exports and employment?
 
 3. Financial Markets:
+
 3.1 How did stock trading activity change before, during and after COVID-19?
+
 3.2 How did market capitalisation evolve across regions?
+
 3.3 Which regions experienced the strongest recovery in equity markets?
+
 3.4 How did market capitalisation relate to inflation across regions?
 
 ## Data:
