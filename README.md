@@ -1,21 +1,24 @@
-# Global-Covid-19-Impact-Analytics-Health-Economy-and-Financial-Markets
+# Global-Resilience-Analytics-Health-Economy-Financial-Markets
 
-## Overview: 
-This project analyses 15 World Bank indicators (2018–2024) across seven global regions to understand how COVID-19 affected healthcare resilience, macroeconomic performance, trade and capital markets. It uses a Python data pipeline to clean, transform and consolidate 31 raw World Bank datasets into a unified analytical dataset before developing interactive Tableau dashboards to identify regional trends, quantify cross-sector impacts, and communicate evidence based recommendations for international policymakers and development organisations, including the World Bank, IMF, WHO and the United Nations. 
+## Overview:
+The Covid-19 pandemic was initially a public health emergency, but its effects quickly extended beyond healthcare systems. Disruptions to healthcare services were followed by contractions in economic activity, labour market instability, changes in global trade patterns, and heightened volatility across financial markets. While these impacts are often examined independently, the pandemic demonstrated how closely connected healthcare, economic performance and financial stability can be.
 
-## Research question: 
-The analysis is centred around one overarching question: How did COVID-19 reshape healthcare demand and what ripple effects did it have on the macroeconomy?
+This project analyses 15 World Bank indicators across seven global regions between 2018 and 2024 to examine how the pandemic reshaped health outcomes and how these effects propagated throughout the wider economy. Using Python and Tableau, 31 individual World Bank datasets were transformed, integrated and analysed to identify regional resilience, recovery patterns, and the relationships between healthcare, economic and financial systems. The insights were then generated for international policymakers and development organisations, including the World Bank, IMF, WHO and the United Nations.
 
-This was explored through ten supporting research questions across three domains: 
-1. Social & Health:
+## Research Focus:
+The analysis is centred around the following question: How did COVID-19 reshape healthcare demand and what ripple effects did it have on the macroeconomy?
+
+To address this question, the project examined three interconnected themes:
+
+1. Healthcare and Social Outcomes:
    1.1 To what extent did infant mortality trends slow during COVID-19, and have regional disparities narrowed during recovery?
    1.2 Did stronger pre-pandemic immunisation systems and hospital bed capacity reduce disruptions to infant mortality and life expectancy?
 
-2. Economy:
+2. Economic Performance:
    2.1 How did GDP evolve before, during and after COVID-19?
    2.2 How did inflation respond to the pandemic?
    2.3 How did labour markets recover across regions?
-   3.4 Did tourism dependent economies experience larger declines in exports and employment?
+   2.4 Did tourism-dependent economies experience larger declines in exports and employment?
 
 3. Financial Markets:
    3.1 How did stock trading activity change before, during and after COVID-19?
@@ -23,39 +26,58 @@ This was explored through ten supporting research questions across three domains
    3.3 Which regions experienced the strongest recovery in equity markets?
    3.4 How did market capitalisation relate to inflation across regions?
 
-## Data: 
-1. World Bank World Development Indicators (Open Data)
-2. 31 raw indicator datasets transformed into a unified analytical dataset
-3. 15 indicators selected for detailed analysis
-4. Coverage from 2018–2024
-5. Seven World Bank regions: East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East, North Africa, Afghanistan & Pakistan, North America, South Asia, and Sub Saharan Africa
+## Data:
+The analysis uses World Bank World Development Indicators (Open Data) covering the period from 2018 to 2024. A total of 31 raw datasets were collected and transformed into a single analytical dataset containing indicators across healthcare, economic and financial domains using Python in Jupyter Notebook.
 
-The analysis combines indicators covering: hospital beds, infant mortality, life expectancy, immunisation, birth rate, GDP, inflation,  labour force, unemployment, employment in services, exports, tourism receipts, stocks traded, and market capitalisation. 
+Following this, fifteen indicators were selected for detailed analysis, including hospital beds per 1,000 people, infant mortality rate, life expectancy, immunisation coverage, birth rate, GDP, inflation, labour force participation, unemployment, employment in services, exports of goods and services, international tourism receipts, stocks traded, and market capitalisation.
 
-## Method: 
-Built in Python (pandas) and Tableau.
+The analysis focuses on seven World Bank regions: East Asia & Pacific, Europe & Central Asia, Latin America & Caribbean, Middle East, North Africa, Afghanistan & Pakistan, North America, South Asia, and Sub-Saharan Africa.
 
-The original World Bank datasets were provided as individual CSV files with countries as rows and years as columns. Each dataset was restructured using Pandas melt() into a relational format before being merged into a single analytical dataset covering healthcare, economic and financial indicators.
+## Analytical Approach:
+Built in Python (Pandas) and Tableau.
 
-Exploratory Data Analysis (EDA) formed the core of the project and interactive Tableau dashboards were developed across three analytical themes: healthcare, economy and financial markets to compare regional trends before COVID-19 (2018–2019), during COVID-19 (2020–2022), and the recovery period (2023–2024). The analysis combined line charts, heatmaps, bubble charts, tables and regional dashboards to identify temporal trends, regional differences and relationships between indicators before translating these findings into policy recommendations.
+The original World Bank datasets were provided as individual CSV files, with countries represented as rows and years as columns. To prepare the data for analysis, each dataset was transformed using Python and Pandas, restructuring the data into a relational format before combining all indicators into a unified analytical dataset.
 
-## Findings: 
-1. Healthcare systems, labour markets and financial markets demonstrated a clear chain reaction rather than acting independently.
-2. Healthcare resilience varied substantially across regions. Countries with stronger immunisation coverage and greater hospital bed capacity generally experienced smaller disruptions to infant mortality and recovered more quickly following the pandemic.
-3. Economic activity contracted sharply during 2020 before recovering across most regions, although recovery rates differed considerably. Tourism dependent economies experienced larger declines in exports and employment, while inflation peaked globally during 2022 before gradually stabilising.
-4. Financial markets followed a different trajectory. East Asia & Pacific recorded the largest increase in stock trading activity during COVID-19, while North America experienced the strongest sustained growth in market capitalisation throughout the recovery period.
+Following this, Exploratory Data Analysis (EDA) formed the core of the project, and interactive Tableau dashboards were developed across three analytical themes: healthcare, economy and financial markets to compare regional trends before COVID-19 (2018–2019), during COVID-19 (2020–2022), and the recovery period (2023–2024).
 
-Overall, the analysis demonstrates that public health resilience, macroeconomic performance and financial market stability are closely interconnected rather than independent systems.
+The analysis combined line charts, heatmaps, bubble charts, comparative tables and interactive dashboards to identify temporal trends, regional differences and relationships between indicators before translating these findings into policy recommendations.
 
-## Why this matters: 
-COVID-19 exposed how disruptions in healthcare rapidly propagated into labour markets, trade and financial systems. By combining indicators across these domains rather than analysing them independently, this project provides a broader understanding of regional resilience and recovery. The findings support evidence based decision making for international organisations including the World Bank, IMF, WHO and the United Nations by identifying where healthcare investment, economic diversification and financial resilience can strengthen preparedness for future global shocks.
+## Tools & Technologies:
 
-## Limitations: 
-1. Several World Bank indicators contain missing or provisional observations for the most recent years.
-2. International tourism receipts were only available up to 2020, limiting post-pandemic comparison.
-3. The analysis is exploratory and identifies relationships rather than causal effects.
-4. Regional aggregation provides a global perspective but may conceal substantial variation between individual countries.
-5. The study relies on the quality and consistency of publicly reported World Bank data.
+1. Programming & Analytics:
+- Python (Pandas)
+- Tableau
+- Excel
 
-## Note: 
-This project originated as a Data Analytics and Visualisation for Business coursework assignment at Imperial College London. My contribution included sourcing the raw World Bank datasets, defining the research questions, building the Python data preparation pipeline, transforming and integrating 31 datasets into a unified analytical dataset, designing the Tableau dashboards, conducting the exploratory data analysis, and contributing to the final report, presentation, and policy recommendations.
+2. Data & Analytics Techniques: 
+- Data Wrangling & Transformation
+- Exploratory Data Analysis (EDA)
+- Data Integration
+- Dashboard Development
+- Data Visualisation
+
+## Key Findings:
+The findings suggest that healthcare resilience, economic performance and financial market stability were closely interconnected throughout the pandemic period rather than operating as separate systems.
+
+1. Healthcare resilience varied considerably across regions, as countries with stronger pre-pandemic immunisation coverage and greater hospital bed capacity generally experienced smaller disruptions to infant mortality outcomes and demonstrated stronger recovery patterns.
+
+2. Economic activity contracted sharply during 2020 across most regions before gradually recovering, however, the pace of recovery differed substantially. Regions with greater dependence on tourism, particularly MENAP, Latin America & Caribbean, and Sub-Saharan Africa, as well as service based industries, experienced larger disruptions to employment and exports, while inflation rose globally before peaking in 2022 and gradually stabilising thereafter.
+
+3. It was also observed that financial markets followed a different trajectory from many underlying economic indicators. Stock trading activity increased significantly during the pandemic period before moderating during the recovery phase. East Asia & Pacific experienced the largest increase in stock trading activity during COVID-19, while North America recorded the strongest and most sustained growth in market capitalisation throughout the recovery period.
+
+Taken together, these findings highlight the extent to which health outcomes, economic performance and financial market activity influence one another during periods of large-scale disruption.
+
+## Why this matters:
+The pandemic exposed how disruptions within healthcare systems can rapidly extend into labour markets, international trade and financial markets. Understanding these connections is important for policymakers, international institutions and organisations responsible for long-term resilience planning.
+
+By bringing together health, economic and financial indicators within a single analytical framework, this project provides a broader perspective on regional recovery and highlights the importance of coordinated investment in healthcare capacity, economic diversification and financial resilience when preparing for future global shocks.
+
+## Limitations:
+1. Some World Bank indicators contain missing or provisional observations for the most recent years.
+2. International tourism receipt data was only available up to 2020, limiting post-pandemic comparisons.
+3. The analysis is exploratory in nature and identifies relationships rather than causal effects.
+4. Regional aggregation provides a useful global perspective but may conceal substantial variation between individual countries.
+5. The findings are dependent upon the quality, availability and consistency of publicly reported World Bank data.
+
+## Note:
+This project was developed as part of the Data Analytics and Visualisation for Business module at Imperial College London.
