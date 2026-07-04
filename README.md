@@ -11,10 +11,8 @@ The analysis is centred around the following question: How did COVID-19 reshape 
 To address this question, the project examined three interconnected themes:
 
 1. Healthcare and Social Outcomes:
-
-1.2. To what extent did infant mortality trends slow during COVID-19, and have regional disparities narrowed during recovery?
-
-1.3. Did stronger pre-pandemic immunisation systems and hospital bed capacity reduce disruptions to infant mortality and life expectancy?
+   1.2 To what extent did infant mortality trends slow during COVID-19, and have regional disparities narrowed during recovery?
+   1.3 Did stronger pre-pandemic immunisation systems and hospital bed capacity reduce disruptions to infant mortality and life expectancy?
 
 4. Economic Performance:
 - 2.1 How did GDP evolve before, during and after COVID-19?
